@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.JavaCalculator" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:colorPrimary">@color/button_operator_top</item>
+        <item name="android:colorPrimaryDark">@color/app_bg_top</item>
+        <item name="android:colorAccent">@color/button_equals_top</item>
+        <item name="android:statusBarColor">@color/app_bg_top</item>
+        <item name="android:navigationBarColor">@color/app_bg_bottom</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowBackground">@color/app_bg_top</item>
+    </style>
+
+    <style name="CalculatorButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textColor">@color/button_text</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:elevation">4dp</item>
+    </style>
+
+    <style name="CalculatorButton.Number" parent="CalculatorButton">
+        <item name="android:background">@drawable/bg_button_number</item>
+    </style>
+
+    <style name="CalculatorButton.Action" parent="CalculatorButton">
+        <item name="android:background">@drawable/bg_button_action</item>
+    </style>
+
+    <style name="CalculatorButton.Operator" parent="CalculatorButton">
+        <item name="android:background">@drawable/bg_button_operator</item>
+    </style>
+
+    <style name="CalculatorButton.Equals" parent="CalculatorButton">
+        <item name="android:background">@drawable/bg_button_equals</item>
+    </style>
+
+</resources>

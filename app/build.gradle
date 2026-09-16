@@ -1,0 +1,19 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.example.javacalculator'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId "com.example.javacalculator"
+        minSdk 24
+        targetSdk 35
+        versionCode 4
+        versionName "2.2"
+    }
+}
+
+dependencies {
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_bg_top">#0D1020</color>
+    <color name="app_bg_bottom">#1A1E33</color>
+
+    <color name="display_card_top">#1F243A</color>
+    <color name="display_card_bottom">#171B2D</color>
+
+    <color name="display_primary">#F8FAFF</color>
+    <color name="display_secondary">#98A2C7</color>
+    <color name="title_text">#EAF0FF</color>
+    <color name="subtitle_text">#8F9ABF</color>
+
+    <color name="button_number_top">#2A304A</color>
+    <color name="button_number_bottom">#20263D</color>
+
+    <color name="button_action_top">#37415D</color>
+    <color name="button_action_bottom">#2A334D</color>
+
+    <color name="button_operator_top">#8B5CF6</color>
+    <color name="button_operator_bottom">#6D28D9</color>
+
+    <color name="button_equals_top">#32D3A5</color>
+    <color name="button_equals_bottom">#0DAF82</color>
+
+    <color name="button_text">#FFFFFF</color>
+    <color name="button_stroke">#2F3654</color>
+</resources>
